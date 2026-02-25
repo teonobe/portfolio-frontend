@@ -49,10 +49,17 @@ section {
   text-align: center;
 }
 .profile-img {
-  width: 150px; /* Tamaño ideal para el header */
-  height: 150px; /* Debe ser igual al width para el circulo */
-  object-fit: cover; /* Evita que tu cara se estire o se vea rara */
-  border-radius: 50%; /* Esto la hace circular */
-  border: 3px solid #e6edf3; /* Un pequeño borde que combine con tu texto */
-  margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #e6edf3;
+    margin: 0 auto 20px auto; /* El 'auto' en los lados ayuda a centrar */
+}
+header {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos uno abajo del otro */
+    align-items: center;    /* Los centra horizontalmente */
+    text-align: center;     /* Centra también los textos (h1, p) */
+    padding: 40px 20px;
 }
