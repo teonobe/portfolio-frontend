@@ -49,17 +49,32 @@ section {
   text-align: center;
 }
 .profile-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #e6edf3;
-    margin: 0 auto 10px auto; /* El 'auto' en los lados ayuda a centrar */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e6edf3;
+  margin: 0 auto 10px auto; /* El 'auto' en los lados ayuda a centrar */
 }
 header {
-    display: flex;
-    flex-direction: column; /* Alinea los elementos uno abajo del otro */
-    align-items: center;    /* Los centra horizontalmente */
-    text-align: center;     /* Centra también los textos (h1, p) */
-    padding: 40px 20px 10px 20px; /* Reducimos el padding inferior de 40px a 10px */
+  display: flex;
+  flex-direction: column; /* Alinea los elementos uno abajo del otro */
+  align-items: center; /* Los centra horizontalmente */
+  text-align: center; /* Centra también los textos (h1, p) */
+  padding: 40px 20px 10px 20px; /* Reducimos el padding inferior de 40px a 10px */
+}
+.btn-primary {
+  background-color: #238636; /* Verde "GitHub" que denota éxito */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s; /* Para que el cambio de color sea suave */
+  margin-top: 15px;
+}
+
+.btn-primary:hover {
+  background-color: #2ea043; /* Un verde más brillante al pasar el mouse */
 }
